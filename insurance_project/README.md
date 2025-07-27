@@ -18,6 +18,7 @@ Table of Contents
 
 
 Project Overview
+
 ●	Welcome to AssureMe, an enterprise-grade insurance client management system.
 
 ●	We transformed a foundational React application into a robust, production-ready platform.
@@ -25,16 +26,27 @@ Project Overview
 ●	This project showcases best practices in modern web development, from comprehensive testing and security to highly reusable components and efficient deployment strategies.
 
 ●	As the developer, I aimed to create a definitive resource for understanding, setting up, and contributing to AssureMe.
+
 What Makes AssureMe Stand Out?
+
 ●	Lean Codebase: We achieved a 90% reduction in code by implementing smart, reusable abstractions.
+
 ●	Solid Architecture: The system is built with Redux Toolkit and TypeScript, adhering to established enterprise patterns.
+
 ●	Robust Error Handling: We implemented comprehensive logging and resilient error management.
+
 ●	Advanced API Client: Our API client includes features like retry logic and performance monitoring.
+
 ●	High-Level Security: We incorporated multiple layers of validation and protection.
+
 ●	Scalable Components: The component system was designed for growth and team collaboration.
+
 ●	Extensive Testing: We achieved over 90% test coverage across the entire codebase.
+
 ●	Modern React: The application exclusively uses functional components and the latest React hooks.
+
 ●	Streamlined Setup: Automated installation scripts allow for a quick and straightforward setup process.
+
 Technology Stack
 Frontend Stack
 React 18.3.1 + TypeScript + Redux Toolkit
