@@ -16,8 +16,10 @@ Table of Contents
 13.	Additional Resources
 14.	Dependencies Summary
 Project Overview
-Welcome to AssureMe, an enterprise-grade insurance client management system. We transformed a foundational React application into a robust, production-ready platform. This project showcases best practices in modern web development, from comprehensive testing and security to highly reusable components and efficient deployment strategies.
-As the developer, my goal was to create a definitive resource for understanding, setting up, and contributing to AssureMe.
+●	Welcome to AssureMe, an enterprise-grade insurance client management system.
+●	We transformed a foundational React application into a robust, production-ready platform.
+●	This project showcases best practices in modern web development, from comprehensive testing and security to highly reusable components and efficient deployment strategies.
+●	As the developer, I aimed to create a definitive resource for understanding, setting up, and contributing to AssureMe.
 What Makes AssureMe Stand Out?
 ●	Lean Codebase: We achieved a 90% reduction in code by implementing smart, reusable abstractions.
 ●	Solid Architecture: The system is built with Redux Toolkit and TypeScript, adhering to established enterprise patterns.
@@ -75,20 +77,27 @@ chmod +x setup.sh
 
 This script automates the entire setup process, from checking Node.js versions to installing dependencies and configuring environment files. It is designed to enable rapid development.
 What the Setup Script Actually Does Under the Hood:
+
 Step 1: Node.js & npm Version Management
 The script performs an intelligent version comparison, automatically updates npm if necessary, and provides tailored installation instructions for the operating system if Node.js is not found. It also suggests using nvm for version management.
+
 Step 2: Comprehensive Dependency Installation
 It installs all root, backend, and frontend dependencies, including core frameworks and libraries such as express, prisma, passport, react, redux-toolkit, tailwind, and enzyme. A security audit is also performed to identify vulnerabilities. The --legacy-peer-deps flag is used for Enzyme compatibility.
+
 Step 3: Intelligent Environment File Creation
 The script automatically generates .env files for the root, backend, and frontend directories. These files are populated with sensible default configurations and include auto-generated unique secrets for JWT and session management. Secure file permissions (600) are set to protect sensitive information.
+
 Step 4: Prisma Client Generation & Database Preparation
 The TypeScript client for Prisma is generated, enabling type-safe database operations. The script attempts to connect to the database; initial connection failures are handled gracefully. This step prepares the ORM for subsequent prisma db push operations.
+
 Step 5: Comprehensive Helper Scripts Creation
 A suite of executable helper scripts is created in the scripts/ directory. These scripts facilitate common development tasks, including building, testing, database management, deployment preparation, and maintenance. Details on these scripts are provided later in this document.
+
 Step 6: Setup Verification & Completion Report
 Finally, the script verifies the existence of all critical files and the executability of the helper scripts. A clear completion report with next steps is then provided.
 Detailed Setup Process Breakdown
 For a comprehensive understanding of each step performed by the setup.sh script, including technical details and troubleshooting for each phase, please refer to the Complete Local Machine Setup Guide section.
+
 Complete Local Machine Setup Guide
 This section provides a comprehensive walkthrough for setting up the AssureMe Insurance Platform on your local machine, covering system dependencies, database setup, and verification.
 System Requirements
@@ -102,6 +111,7 @@ Required Software Versions
 ●	npm: Version 8.0.0 or higher (included with Node.js; tested with v10.9.2).
 ●	Git: Any recent version.
 ●	PostgreSQL: Version 13+ (for local database) or a cloud database account (e.g., Supabase).
+
 Step 1: System Dependencies Installation
 Ensure these dependencies are installed before cloning the project.
 Windows Setup
