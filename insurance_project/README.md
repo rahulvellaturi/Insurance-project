@@ -15,6 +15,8 @@ Table of Contents
 12.	Troubleshooting
 13.	Additional Resources
 14.	Dependencies Summary
+
+
 Project Overview
 ●	Welcome to AssureMe, an enterprise-grade insurance client management system.
 ●	We transformed a foundational React application into a robust, production-ready platform.
